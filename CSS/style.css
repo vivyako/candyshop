@@ -1,0 +1,245 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    bottom: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+.candyshop {
+    position: absolute;
+    height: 39px;
+    left: 17px;
+    top: 30.5px;
+}
+
+.candyshop a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.line1 {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 170px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.men {
+    position: absolute;
+    height: 39px;
+    left: 250px;
+    top: 30.5px;
+}
+
+.men a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.line2 {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 370px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.women {
+    position: absolute;
+    height: 39px;
+    left: 450px;
+    top: 30.5px;
+}
+
+.women a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.line3 {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 570px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.searchbox {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+}
+
+.searchbox input {
+    width: 250px;
+    height: 31px;
+}
+
+.searchbox img {
+    width:  34px;
+    height: 34.75px;
+    background-color: #FFFFFF;
+}
+
+.searchbox button {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: none;
+    border-color: #FFFFFF;
+}
+
+.hellogoodbye {
+    position: absolute;
+    color: #FFFFFF;
+    left: 80%;
+    top: 35px;
+}
+
+.hellogoodbye a {
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+.guys {
+    position: absolute;
+    top: 20%; 
+    left: 0;
+    right: 8%;
+    text-align: center;
+}
+
+.guys article {
+    display: inline-block;
+    padding-left: 8%;  
+}
+
+.guys img {
+    width: 196px;
+    height: 250px;  
+}
+
+.guys a {
+    text-decoration: none;
+    color: black;
+}
+
+.sale {
+    position: absolute;
+    display: inline-block;
+    top: 70%; 
+    left: 0;
+    right: 0;
+    text-align: center; 
+    height: 130px;
+    background: #219653;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: small;
+    padding-top: 20px;
+}
+
+.sale p {
+    color: black;
+    font-family: Lohit Tamil;
+    line-height: 15px;
+}
+
+.sale article {
+    background-color: #FFFFFF;
+    width: 300px;
+    margin: 0 auto 24px;
+    font-style: italic;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sale span {
+    font-size: smaller;
+}
+
+.brands {
+    position: absolute;
+    top: 90%; 
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.brands span {
+    font-size: smaller;
+    display: block;
+}
+
+.brands article {
+    display: inline-block;
+}
+
+.brands img {
+    width: 176px;
+}
+
+
+footer {
+    position: absolute;
+    background: #000000;
+    height: 100px;
+    top: 120%;  
+    width: 100%;
+}
+
+footer article {
+    padding-left: 20px;
+    font-size: smaller;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+    text-decoration: #FFFFFF;
+}
+
+.footimg {
+    position: absolute;
+    left: 80%;
+    display: inline-block;
+    margin-top: -75px;
+}
+
+.footimg img {
+    width: 32px;
+    height: 32px;
+    margin-left: 30px;
+}
